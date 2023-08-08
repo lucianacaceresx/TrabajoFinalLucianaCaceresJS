@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Banca online</title>
+    <link rel="icon" href="images/tarjeta.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script defer src="https://run.mocky.io/v3/7c54c5a5-06fd-413b-9022-19fcab6ece37"></script>
+    <script src="js/general.js"></script>
+    <script defer src="js/checkout.js"></script>
+    <script defer src="js/movimientos.json"></script>
+    <script defer src="js/index.js"></script>
+
+</head> 
+<body>
+    <header>
+        <h1>Tu banca online</h1>
+        <p>Verifica los datos ingresados:</p>
+        <div class="centrar-div">
+            <button class="button button-outline"><a href="index.html">Volver a movimientos</a></button> 
+        </div>
+        <input type="search" id="inputSearch" list="inputSearch" placeholder=" 🔍 Ingresa el nombre del movimiento a buscar">
+            <datalist id="inputSearch">
+                <option value="hola">
+                <option value="coder">
+            </datalist>
+        </div>
+    </header>
+    <table>
+      <table>
+        <thead>
+            <tr>
+                <th class="tablehead">Imagen</th>
+                <th class="tablehead">Movimiento</th>
+                <th class="tablehead">Importe</th>
+                <th class="tablehead">Quitar</th>
+            </tr>
+        </thead>
+        <tbody>
+         
+    </table>
+        <tbody id="tablaMovimientos">
+
+        </tbody>
+    </table>
+            <div class="centrar-div">
+                <button class="button" id="btnComprar">TRANSFERIR</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
